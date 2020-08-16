@@ -12,14 +12,14 @@
   
   Пример запроса:
     GET productinfo/public/api/products?sortBy=price&direction=asc&category=1
-    productinfo - название домена
-    sortBy - сортировка по указанному полю
-    direction - направление (возрастание/убывание)
-    category - товары определенной категории (указывается id категории)
+    <br>productinfo - название домена
+    <br>sortBy - сортировка по указанному полю
+    <br>direction - направление (возрастание/убывание)
+    <br>category - товары определенной категории (указывается id категории)
     
 Использование консольной команды
   В папке jsonData находятся два файла: products.json и categories.json, для чтения json файла и записи в БД, можно выполнить команду php artisan fromJson:read -filePath -dataType
   
   Например:
-    1) php artisan fromJson:read jsonData\categories.json category
-    2) php artisan fromJson:read jsonData\products.json product
+    <br>1) php artisan fromJson:read jsonData\categories.json category
+    <br>2) php artisan fromJson:read jsonData\products.json product

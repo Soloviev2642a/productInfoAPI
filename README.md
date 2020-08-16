@@ -8,7 +8,7 @@
   7. В папке проекта выполнить команду php artisan migrate
   
 Использование API:
-  Для просмотра доступных запросов можно выполнить команду php artisan route:list
+  <br>Для просмотра доступных запросов можно выполнить команду php artisan route:list
   
   Пример запроса:
     GET productinfo/public/api/products?sortBy=price&direction=asc&category=1
@@ -18,7 +18,7 @@
     <br>category - товары определенной категории (указывается id категории)
     
 Использование консольной команды
-  В папке jsonData находятся два файла: products.json и categories.json, для чтения json файла и записи в БД, можно выполнить команду php artisan fromJson:read -filePath -dataType
+  <br>В папке jsonData находятся два файла: products.json и categories.json, для чтения json файла и записи в БД, можно выполнить команду php artisan fromJson:read -filePath -dataType
   
   Например:
     <br>1) php artisan fromJson:read jsonData\categories.json category
